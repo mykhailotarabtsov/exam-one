@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+@font-face {
+  font-family: 'Aleo';
+  src:  url('../fonts/Aleo-Font/Bold/aleo-bold-webfont.woff2') format('woff2'),
+				url('../fonts/Aleo-Font/Bold/aleo-bold-webfont.woff2') format('woff');
+	font-weight: bold;
+}
+@font-face {
+  font-family: 'Aleo';
+  src:  url('../fonts/Aleo-Font/Light/aleo-light-webfont.woff2') format('woff2'),
+				url('../fonts/Aleo-Font/Light/aleo-light-webfont.woff2') format('woff');
+	font-weight: 300;
+}
+@font-face {
+  font-family: 'Aleo';
+  src:  url('../fonts/Aleo-Font/Regular/aleo-regular-webfont.woff2') format('woff2'),
+				url('../fonts/Aleo-Font/Regular/aleo-regular-webfont.woff2') format('woff');
+	font-weight: 400;
+}
