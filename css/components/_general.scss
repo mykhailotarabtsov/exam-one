@@ -44,7 +44,7 @@ a {
 }
 
 .ba-container {
-	width: 1110px;
+	max-width: 1110px;
 	margin: 0 auto;
 }
 
@@ -86,12 +86,9 @@ a {
 		text-align: center;
 		cursor: pointer;
 	}
-	.header__hero-form input[type="submit"] {
+	.header__hero-form label {
 		display: inline-block;
-		// position: absolute;
-		// top: 0;
-		// right: 0;
-		// height: 58px;
+		cursor: pointer;
 		padding: 25px 36px;
 		background-color: $color_blue;
 		font-size: 0.875rem;
@@ -103,9 +100,9 @@ a {
 		border: 2px solid #fff;
 		transition: color 0.3s, background-color 0.3s;
 	}
-	.header__hero-form input[type="submit"]:hover {
-	color: #ff6363;
-	background-color: #fff;
+	.header__hero-form label:hover {
+		color: #ff6363;
+		background-color: #fff;
 	} 
 	.scroll-button {
 		position: absolute;
@@ -196,7 +193,7 @@ a {
 	}
 
 
-	h1 {
+	h2 {
 		font-family: 'Aleo';
 		font-size: 2.25rem;
 		line-height: 0.72em;
